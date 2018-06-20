@@ -1,0 +1,30 @@
+/*------ colours -------*/
+
+
+/*------ header --------*/
+.title1{
+    font-family: "Merriweather", sans-serif;
+    height:50px;
+    font-size:35px;
+}
+.boxes{
+    height: 50px;
+    float:right;
+}
+.flex-container{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
+
+
+/*------- footer ----------*/
+footer{
+    position:fixed;
+    left: 0;
+    bottom:0;
+}
+.multimedia{
+    float: right;
+}
