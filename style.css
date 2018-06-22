@@ -20,10 +20,21 @@
     padding-top: 5px;
 }
 
+.active-tab{
+    background-color: white;
+}
+
 .flex-container{
     display: flex;
     flex-direction:row;
     flex-wrap:wrap;
+}
+
+/*------- body ------------*/
+.responsive{
+       width: 100%;
+    height: auto;
+
 }
 
 /*------- footer ----------*/
