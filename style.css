@@ -1,7 +1,5 @@
 /*------ general -------*/
-
-
-
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
 /*------ header --------*/
 .title1{
     font-family: "Merriweather", sans-serif;
@@ -14,7 +12,14 @@
     height: 50px;
     float:right;
     background-color: orange;
+    font-family: "Merriweather", sans-serif;
 }
+.boxes a i {
+    color:black;
+    font-size: 23px;
+    padding-top: 5px;
+}
+
 .flex-container{
     display: flex;
     flex-direction:row;
@@ -39,5 +44,5 @@ footer{
     float: right;
     background-color: blue;
     color:white;    
-    font-size: 25px
+    font-size: 23px
 }
