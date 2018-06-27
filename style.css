@@ -1,6 +1,10 @@
 /*------ general -------*/
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
 /*------ header --------*/
+header {
+    position: fixed;
+    width:100%;
+}
 
 .title1{
     font-family: "Merriweather", sans-serif;
@@ -35,6 +39,13 @@
 }
 
 /*------- body ------------*/
+.gap1{
+    height: 60px;
+}
+.gap2{
+    height: 60px;
+}
+
 .responsive{
        width: 100%;
     height: auto;
@@ -42,10 +53,38 @@
     max-width:100%;
 
 }
+/*------- home ------------*/
+.intro{
+    font-family: "Merriweather", sans-serif;
+    font-size: 12px;
+}
+/*------- gallery ---------*/
+.gallery{
+    background-color:#ffffe6;
+    padding-top:5px;
+    padding-left:0;
+    padding-right:0;
+    padding-bottom:5px;
+}
+ul{ list-style-type: none; }
+
+.hovergal{
+    height:80px;
+    width:80px;
+    transition: width 1s, height 1s;
+    transition-timing-function:ease-in-out;
+    padding:5px;
+    
+}
+.hovergal:hover{
+    height: 100px;
+    width:100px;
+}
 
 /*------- footer ----------*/
 footer{
     position:fixed;
+    width:100%;
     left: 0;
     bottom:0;
     padding:0;
