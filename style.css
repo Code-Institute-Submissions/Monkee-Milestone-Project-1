@@ -41,9 +41,11 @@ header {
 /*------- body ------------*/
 .gap1{
     height: 60px;
+    z-index: -1;
 }
 .gap2{
     height: 60px;
+    z-index: -1;
 }
 
 .responsive{
@@ -79,6 +81,13 @@ ul{ list-style-type: none; }
 .hovergal:hover{
     height: 100px;
     width:100px;
+}
+/*-------- contact --------*/
+.formbox{
+    width:80%;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
 }
 
 /*------- footer ----------*/
