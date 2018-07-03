@@ -1,31 +1,49 @@
-/*------ general -------*/
+/*------------------------------------ general -------------------------------*/
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
-/*------ header --------*/
+
+h1,h2,h3,h4,h5{
+font-family: "Merriweather", sans-serif;   
+}
+/*------------------------------------ header --------------------------------*/
 header {
     position: fixed;
     width:100%;
+    z-index: +1;
 }
 
 .title1{
     font-family: "Merriweather", sans-serif;
-    height:60px;
-    font-size:45px;
+    font-weight: 200;
+    height:75px;
+    font-size:44px;
     background-color: blue;
     color: white;
+    padding-top: 6px;
+    
 }
 .boxes{
-    height: 60px;
+    height: 75px;
     background-color: orange;
-    font-family: "Merriweather", sans-serif;
+    
 }
 .boxes a i {
     color:black;
-    font-size: 23px;
-    padding-top: 5px;
+    font-size: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    transition-duration: .5s;
+    transition-timing-function: ease-in;
 }
+
+.boxes a i:hover{
+    color: white;
+   }
 
 .active-tab{
     background-color: white;
+}
+.active-tab:hover{
+    background-color: blue;
 }
 
 .flex-container{
@@ -35,16 +53,19 @@ header {
     Justify-content:space-between;
 }
 .list-inline{
+    margin:0;
     text-align: center;
+    transition-duration: .5s;
+    transition-timing-function: ease-in;
 }
 
-/*------- body ------------*/
+/*---------------------------------- body ------------------------------------*/
 .gap1{
-    height: 60px;
+    height: 75px;
     z-index: -1;
 }
 .gap2{
-    height: 60px;
+    height: 75px;
     z-index: -1;
 }
 
@@ -55,17 +76,46 @@ header {
     max-width:100%;
 
 }
-/*------- home ------------*/
+/*---------------------------------- home ------------------------------------*/
 .intro{
     font-family: "Merriweather", sans-serif;
     font-size: 12px;
 }
-/*------- gallery ---------*/
+/*---------------------------------- music -----------------------------------*/
+.musicbox{
+padding :5%;
+z-index: -2;
+}
+.player{
+    padding :2%;
+    background-color: orange;
+    transition-duration: .3s;
+    transition-timing-function: ease-in;
+}
+.player:hover{
+    background-color: blue;
+}
+.vidbox{
+    width:70%;
+    height: 70%;
+margin-bottom: 70px;
+margin-left:15%;
+margin-top: 5px;
+}
+/*----------------------------------- live -----------------------------------*/
+.livehead{
+    width:100%;
+    text-align: center;
+}
+.live-date{
+
+}
+/*----------------------------------- gallery --------------------------------*/
 .gallery{
     background-color:#ffffe6;
-    padding-top:5px;
-    padding-left:0;
-    padding-right:0;
+    padding-top:10px;
+    padding-left:10;
+    padding-right:10;
     padding-bottom:5px;
 }
 ul{ list-style-type: none; }
@@ -82,15 +132,14 @@ ul{ list-style-type: none; }
     height: 100px;
     width:100px;
 }
-/*-------- contact --------*/
+/*----------------------------------- contact --------------------------------*/
 .formbox{
     width:80%;
-    border: 25px solid green;
-    padding: 25px;
-    margin: 25px;
+    padding: 10%;
+
 }
 
-/*------- footer ----------*/
+/*----------------------------------- footer ---------------------------------*/
 footer{
     position:fixed;
     width:100%;
@@ -101,16 +150,25 @@ footer{
     
 }
 .about{
-    height: 60px;
+    height: 75px;
     background-color: orange;
     font-family: "Merriweather", sans-serif;
     font-size: 12px;
     font-weight: 100;
 }
 .multimedia{
-    height:60px;
+    height:75px;
     float: right;
     background-color: blue;
     color:white;    
-    font-size: 23px
+    font-size: 25px;
+    padding-top:25px;
+}
+.multimedia i{
+    transition-duration: .5s;
+    transition-timing-function: ease-in;
+}
+
+.multimedia i:hover{
+    color: black;
 }
