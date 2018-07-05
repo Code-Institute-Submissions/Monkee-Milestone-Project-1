@@ -102,7 +102,7 @@ color: #e8b33a;
 .vidbox{
     width:70%;
     height: 70%;
-margin-bottom: 70px;
+margin-bottom: 150px;
 margin-left:15%;
 margin-top: 5px;
 }
@@ -112,7 +112,7 @@ margin-top: 5px;
     text-align: center;
 }
 .live-date{
-
+padding-bottom: 150px;
 }
 /*----------------------------------- gallery --------------------------------*/
 .gallery{
@@ -120,7 +120,7 @@ margin-top: 5px;
     padding-top:10px;
     padding-left:10;
     padding-right:10;
-    padding-bottom:5px;
+    padding-bottom:150px;
 }
 ul{ list-style-type: none; }
 
@@ -133,14 +133,17 @@ ul{ list-style-type: none; }
     
 }
 .hovergal:hover{
-    height: 300px;
-    width:300px;
+    height: 240px;
+    width:240px;
 }
 /*----------------------------------- contact --------------------------------*/
 .formbox{
     width:80%;
     padding: 10%;
-
+    padding-bottom:150px;
+}
+.comment{
+    width: 100%;
 }
 
 /*----------------------------------- footer ---------------------------------*/
