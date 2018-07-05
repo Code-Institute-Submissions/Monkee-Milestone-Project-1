@@ -1,5 +1,5 @@
 /*------------------------------------ general -------------------------------*/
-@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:100,200,300,400,500,600,700');
 
 h1,h2,h3,h4,h5{
 font-family: "Merriweather", sans-serif;   
@@ -15,19 +15,19 @@ header {
     font-family: "Merriweather", sans-serif;
     font-weight: 200;
     height:75px;
-    font-size:44px;
-    background-color: blue;
-    color: white;
+    font-size:3em;
+    background-color: #5f87cc;
+    color: #fff9ef;
     padding-top: 6px;
     
 }
 .boxes{
     height: 75px;
-    background-color: orange;
+    background-color: #e8b33a;
     
 }
 .boxes a i {
-    color:black;
+    color:#474644;
     font-size: 25px;
     padding-top: 25px;
     padding-bottom: 25px;
@@ -36,14 +36,14 @@ header {
 }
 
 .boxes a i:hover{
-    color: white;
+    color: #fff9ef;
    }
 
 .active-tab{
-    background-color: white;
+    background-color: #fff9ef;
 }
-.active-tab:hover{
-    background-color: blue;
+.active-tab a i:hover{
+    color: #5f87cc;
 }
 
 .flex-container{
@@ -60,6 +60,9 @@ header {
 }
 
 /*---------------------------------- body ------------------------------------*/
+section{
+    background-color: #fff9ef;
+}
 .gap1{
     height: 75px;
     z-index: -1;
@@ -85,15 +88,16 @@ header {
 .musicbox{
 padding :5%;
 z-index: -2;
+color: #e8b33a;
 }
 .player{
     padding :2%;
-    background-color: orange;
+    background-color: #e8b33a;
     transition-duration: .3s;
     transition-timing-function: ease-in;
 }
 .player:hover{
-    background-color: blue;
+    background-color: #5f87cc;
 }
 .vidbox{
     width:70%;
@@ -121,16 +125,16 @@ margin-top: 5px;
 ul{ list-style-type: none; }
 
 .hovergal{
-    height:80px;
-    width:80px;
+    height:160px;
+    width:160px;
     transition: width 1s, height 1s;
     transition-timing-function:ease-in-out;
     padding:5px;
     
 }
 .hovergal:hover{
-    height: 100px;
-    width:100px;
+    height: 300px;
+    width:300px;
 }
 /*----------------------------------- contact --------------------------------*/
 .formbox{
@@ -151,7 +155,7 @@ footer{
 }
 .about{
     height: 75px;
-    background-color: orange;
+    background-color: #e8b33a;
     font-family: "Merriweather", sans-serif;
     font-size: 12px;
     font-weight: 100;
@@ -159,10 +163,10 @@ footer{
 .multimedia{
     height:75px;
     float: right;
-    background-color: blue;
-    color:white;    
+    background-color: #5f87cc;
+    color:#fff9ef;    
     font-size: 25px;
-    padding-top:25px;
+    padding-top:18px;
 }
 .multimedia i{
     transition-duration: .5s;
@@ -170,5 +174,5 @@ footer{
 }
 
 .multimedia i:hover{
-    color: black;
+    color: #474644;
 }
