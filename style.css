@@ -130,8 +130,16 @@ ul{ list-style-type: none; }
     transition: width 1s, height 1s;
     transition-timing-function:ease-in-out;
     padding:5px;
-    
 }
+
+@media screen and (max-width: 575px) {
+    .hovergal{
+    height:80px;
+    width:80px;
+    transition: width 1s, height 1s;
+    transition-timing-function:ease-in-out;
+    padding:5px;
+}}
 .hovergal:hover{
     height: 240px;
     width:240px;
