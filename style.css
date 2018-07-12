@@ -129,10 +129,12 @@ margin-top: 1%;
 }
 .live-date{
 max-width:90%;
-padding-left: 5%
+padding-left: 5%;
+
 }
 .date{
     background-color:#e8b33a;
+    transition-duration:.5s;
     border-radius: 12px 12px 12px 12px;
 }
 .date:hover{
@@ -195,7 +197,7 @@ footer{
     font-size: 12px;
     font-weight: 100;
 }
-.multimedia{
+.social-media{
     height:75px;
     float: right;
     background-color: #5f87cc;
@@ -203,11 +205,11 @@ footer{
     font-size: 25px;
     padding-top:18px;
 }
-.multimedia i{
+.social-media i{
     transition-duration: .5s;
     transition-timing-function: ease-in;
 }
 
-.multimedia i:hover{
+.social-media i:hover{
     color: #474644;
 }
