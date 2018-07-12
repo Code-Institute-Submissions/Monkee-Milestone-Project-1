@@ -92,9 +92,9 @@ z-index: -2;
 color: #e8b33a;
 text-transform: uppercase;
 font-family:"Merriweather", sans-serif;
-font-size: 1.2em;
+font-size: 1em;
 font-weight: 400;
-text-align: justify;
+text-align: center;
 }
 
 .player{
@@ -107,6 +107,7 @@ text-align: justify;
 
 .player:hover{
     background-color: #5f87cc;
+    color: #fff9ef;
 }
 
 .vidbox{
@@ -131,19 +132,26 @@ margin-top: 1%;
     width:100%;
     text-align: center;
     padding-top:1%;
+    font-family: "Merriweather", sans-serif; 
 }
 .live-date{
 max-width:90%;
 padding-left: 5%;
+padding-bottom:160px;
 
 }
 .date{
     background-color:#e8b33a;
     transition-duration:.5s;
     border-radius: 12px 12px 12px 12px;
+    padding:1%;
 }
 .date:hover{
     background-color:#5f87cc;
+}
+.ticket-button{
+   background-color: #fff9ef;
+   border: none;
 }
 /*----------------------------------- gallery --------------------------------*/
 .gallery{
@@ -160,7 +168,7 @@ ul{ list-style-type: none; }
     width:200px;
     transition: width 1s, height 1s;
     transition-timing-function:ease-in-out;
-    padding:5px;
+    padding:20px;
 }
 
 @media screen and (max-width: 575px) {
@@ -173,12 +181,17 @@ ul{ list-style-type: none; }
 }}
 .hovergal:hover{
     height:250px;
-    width:250px;
-}
+    width:250px;}
+
+@media screen and (max-width: 575px) {
+.hovergal:hover{
+    height:150px;
+    width:150px;
+}}
 /*----------------------------------- contact --------------------------------*/
 .formbox{
     width:100%;
-    padding: 10%;
+    padding: 5% 10% 10% 10%;
     padding-bottom:150px;
 }
 .comment{
