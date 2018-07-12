@@ -90,6 +90,11 @@ body    {overflow-y:scroll;
 padding :1%;
 z-index: -2;
 color: #e8b33a;
+text-transform: uppercase;
+font-family:"Merriweather", sans-serif;
+font-size: 1.2em;
+font-weight: 400;
+text-align: justify;
 }
 
 .player{
